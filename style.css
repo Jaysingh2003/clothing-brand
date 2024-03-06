@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(13, 26, 40, 0.818);
+}
+#mytext{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    z-index: 9999;
+    white-space:nowrap;
+    user-select: none;
+}
+#mytext h1{
+    font-weight: 400;
+    font-size: 7vw;
+  
+  
+     
+}
+#mytext h3{
+    font-size: 3vw;
+    line-height: 1;
+}
+
+#left{
+    overflow: hidden;
+    position: relative;
+    width: 45%;
+    height: 100%;
+    
+}
+#nav{
+    display: flex;
+    padding: 30px 40px;
+    color: white;
+    gap: 40px;
+    gap: 60px;
+}
+#nav a{
+    text-decoration: none;
+    color: white;
+    letter-spacing: 3px;
+    font-size: 10px;
+   
+}
+#nav h2{
+    font-weight: 100;
+    
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 6px;
+}
+#scroll{
+    position: absolute;
+    bottom: -2% ;
+    left: 10%;
+    transform-origin:0% 50%;
+    transform: rotate(-90deg);
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+#scroll #line{
+    width: 120px;
+    height: 1px;
+    background-color: white;
+}
+#scroll h4{
+    color: white;
+    font-size: 14px;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    
+    
+}
+
+#centerimg{
+    position: absolute;
+    width: 50%;
+    height: 60%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-image: url(https://cdn.pixabay.com/photo/2020/06/09/08/15/girl-5277483_1280.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+#centerimg #text{
+    display: flex;
+    position: absolute;
+    width: 100%;
+    bottom: -20%;
+    color: white;
+}
+#heading{
+    width: 30%;
+    
+}
+#heading h5{
+font-size: 10px;
+font-family:"Anurati";
+}
+#para{
+    width: 70%;
+    
+    }
+ #para p{
+    font-size: 7px;
+ }   
+#center{
+    position: relative;
+    width: 50%;
+    height: 100%;
+    background-image: url(https://cdn.pixabay.com/photo/2020/06/07/07/03/girl-5269312_1280.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#center #card{
+    display: flex;
+    position: absolute;
+    width: 150px;
+    height: 120px;
+    background-color: red;
+    right: -5%;
+    bottom: 5%;
+
+}
+#cicon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+width: 20%;
+height: 100%;
+background-color: white;
+
+}
+#cimage{
+    width: 80%;
+    height: 100%;
+    background-image: url(https://cdn.pixabay.com/photo/2020/06/07/14/58/girl-5270766_1280.jpg);
+    background-size: cover;
+    background-position: center;
+    }
+#right{
+    width: 5%;
+    height: 100%;
+   
+}
+#right #rlem{
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 70%;
+    color: white;
+
+}
+#rlem #links{
+    display: flex;
+    transform:translatey(-130px) rotate(90deg);
+    gap: 51px;
+}
+#links a{
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 10px;
+    color: white;
+    
+   
+}
